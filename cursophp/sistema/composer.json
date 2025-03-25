@@ -1,0 +1,23 @@
+{
+    "name": "pedro1/sistema",
+    "description": "cursophp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "sistema\\": "sistema/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Maciel dos Santos",
+            "email": "pe.maciel.santos@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "pecee/simple-router": "^5.4",
+        "bissolli/validador-cpf-cnpj": "^1.2",
+        "twig/twig": "^3.14"
+    }
+}
